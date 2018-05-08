@@ -1,0 +1,56 @@
+h1{
+  text-align: center;
+}
+body{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+p{
+  margin: 0;
+}
+.container{
+  width: 90%;
+  margin: 6rem auto;
+  text-align: center;
+  align-self: center;
+}
+.grupo{
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.container>div{
+  display: inline-block;
+}
+.cuadro1{
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.cuadro2{
+  border-bottom: 1px solid black;
+}
+.cuadro3{
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.cuadro4{
+  border-right: 1px solid black;
+}
+.cuadro6{
+  border-left: 1px solid black;
+}
+.cuadro7{
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
+.cuadro8{
+  border-top: 1px solid black;
+}
+.cuadro9{
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
